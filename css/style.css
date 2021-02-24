@@ -1,0 +1,201 @@
+.home {
+    background-color: #333;
+    overflow: hidden;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.h2 {
+font-family: "Calibre", sans-serif;
+font-weight: 500;
+font-style: normal;
+   
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+
+
+}
+.mainmenu {
+  display:flex;
+  margin-left: auto;
+    float: left;
+    text-align: left;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 17px;
+   
+   
+}
+.mainmenu li {
+list-style-type: none;
+padding-right: 10px;
+
+
+}
+.cardone {
+  grid-area: cardone;
+    padding-bottom: 60px;
+    margin: 20%;
+    padding: 10%;
+    border-radius: 5%;
+    justify-content: space-around;
+  background-color:turquoise; 
+}
+
+.cardtwo {
+  grid-area: cardtwo;
+    padding-bottom: 60px;
+    margin: 20%;
+    padding: 10%;
+    border-radius: 5%;
+    justify-content: space-around;
+    background-color:turquoise;
+  
+}
+.cardthree {
+ grid-area: cardthree;
+    padding-bottom: 60px;
+    margin: 20%;
+    padding: 10%;
+    border-radius: 5%;
+    justify-content: space-around;
+  background-color:turquoise;
+  
+}
+.projects img {
+  width: 100%;
+  height: auto;
+}
+
+.pic {
+ margin-left:auto;
+ margin-right:auto;
+ position: relative;
+ list-style-type: none;
+padding-right: 10px;
+color: black;
+}
+
+.boxed {
+  border: 1px solid tan;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    border-style: solid;
+    position: relative;
+    float: left;
+}
+.projects { 
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:auto;
+  grid-template-areas: 
+  "cardone cardtwo cardthree";
+}
+.hero {
+  font-family: 'Junge', serif;
+  float: center;
+  text-align: center;
+}
+
+
+.footermenu {
+list-style-type: none;
+padding-right: 10px;
+display: flex;
+justify-content: space-between;
+align-items:right;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: grey;
+color: white;
+text-align: center;
+}
+
+
+.skillscolumn ul {
+  list-style-type: none;
+  width:50%;
+}
+
+.skillscolumn {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Junge', serif;
+
+}
+
+a, a:visited {
+  color:#3caea3;
+  font-family: 'Oswald', sans-serif;
+}
+a:hover {
+  color:black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin:0 auto; 
+}
+.biopic {
+margin:0 auto;
+}
+
+.imagecontainer {
+  text-align:center;
+  margin:0 auto;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+  background-size:cover;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  background-image: url(../images/tranlogo.png);
+ }
+ 
+ .back-to-top:hover{
+  opacity: 0.7;
+ }
+
+ .myskillsheader {
+  float: center;
+  text-align: center;
+ }
+
+ .myprojectsheader {
+  float: center;
+  text-align: center; 
+ }
+
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ }
